@@ -1,0 +1,14 @@
+# --------------
+#
+
+*~
+*.swp
+tag
+tags
+*.vim
+/vendor
+/web
+/app/Helper
+/app/Model
+/app/View/test
+/app/Controller/Test.php
