@@ -5,8 +5,6 @@ namespace Controller;
 
 use Zuni\View;
 use Zuni\Controller;
-use Zuni\Table;
-use Zuni\Element;
 
 class Index extends Controller
 {
@@ -17,22 +15,9 @@ class Index extends Controller
         public function index()
         {
 
-            $e  = new Element('input');
+            $view = new View\Render('index');
 
-  /*
-            $e->attr(array(
-                'type'=> 'text',
-                'required'
-            ));
-*/
-            $e->attr('required');
-            $e->attr('type', 'email');
-            echo htmlentities($e->render());
-
-
-            // $view = new View\Render('index');
-
-            // $this->load($view);
+            $this->load($view);
         } 
 
 }
