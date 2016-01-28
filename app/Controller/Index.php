@@ -16,9 +16,23 @@ class Index extends Controller
 
         public function index()
         {
-            $view = new View\Render('index');
 
-            $this->load($view);
+            $e  = new Element('input');
+
+  /*
+            $e->attr(array(
+                'type'=> 'text',
+                'required'
+            ));
+*/
+            $e->attr('required');
+            $e->attr('type', 'email');
+            echo htmlentities($e->render());
+
+
+            // $view = new View\Render('index');
+
+            // $this->load($view);
         } 
 
 }
