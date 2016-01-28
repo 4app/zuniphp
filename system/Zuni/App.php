@@ -4,7 +4,7 @@
  * @package     ZuniPHP
  * @author      Estefanio NS <estefanions AT gmail DOT com>
  * @link        http://4app.github.io/zuniphp
- * @copyright   2010 - 2015 
+ * @copyright   2010 - 2016 
  * 
 */
 
@@ -29,7 +29,6 @@ class App {
     private static $_errorController = 'Error404';
     private static $_dirSystem = 'system';
     private static $_dirApp = 'app';
-    private static $_dirVendor = 'vendor';
 
 
     public function __construct() 
@@ -119,18 +118,6 @@ class App {
         return self::$_dirApp;
     } 
 
-
-    public function setDirVendor($vendor)
-    {
-        self::$_dirVendor = $vendor;
-        return $this;
-    } 
-
-
-    public static function getDirVendor()
-    {
-        return self::$_dirVendor;
-    } 
 
 
     public static function getPathApp()
