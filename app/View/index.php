@@ -7,11 +7,11 @@
 <style type="text/css" media="all">
     *{margin:0; padding: 0}
     body{
-        color: #555; background: #f8f8f8;
+        color: #555; background: #fff;
         font-family:Verdana, Arial, Helvetica, sans-serif 
     }
     h1,p{ margin: 0 0 15px }
-    h1 {color: #09a; font-size: 35px }
+    h1 {color: #09c; font-size: 35px }
     code{color: #040}
     a{color: #09c}
     .box{ width: 500px; margin: 0 auto }
