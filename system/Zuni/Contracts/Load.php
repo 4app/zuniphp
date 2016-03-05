@@ -9,13 +9,14 @@
 */
 
 
-namespace Zuni\InterfaceClass;
+namespace Zuni\Contracts;
 
-
-interface Rule
+interface Load
 {
-    public function rule();
+    public function load();
 }
+
+
 
 
 

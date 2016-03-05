@@ -11,7 +11,7 @@
 
 namespace Zuni\AbstractClass;
 
-use Zuni\InterfaceClass\Load as ILoad;
+use Zuni\Contracts\Load as ILoad;
 
 abstract class Controller
 {

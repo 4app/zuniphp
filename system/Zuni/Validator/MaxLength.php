@@ -12,7 +12,7 @@
 namespace Zuni\Validator;
 
 
-use Zuni\InterfaceClass\isValid;
+use Zuni\Contracts\isValid;
 use Zuni\Validator\ValidatorVo;
 
 class MaxLength implements IsValid 

@@ -12,7 +12,7 @@
 namespace Zuni\Validator;
 
 
-use Zuni\InterfaceClass\IsValid;
+use Zuni\Contracts\IsValid;
 use Zuni\Validator\ValidatorVo;
 
 class Url implements isValid 

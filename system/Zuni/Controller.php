@@ -12,7 +12,7 @@
 namespace Zuni;
 
 use Zuni\AbstractClass\Controller as ControllerAbstract;
-use Zuni\InterfaceClass\Load as ILoad;
+use Zuni\Contracts\Load as ILoad;
 
 class Controller extends ControllerAbstract
 {

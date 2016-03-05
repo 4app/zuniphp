@@ -9,12 +9,12 @@
 */
 
 
-namespace Zuni\InterfaceClass;
+namespace Zuni\Contracts;
 
-interface Add
+interface Result
 {
-    public function add($add);
+    public function result();
+    
 }
-
 
 

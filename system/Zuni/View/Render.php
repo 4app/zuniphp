@@ -11,7 +11,7 @@
 
 namespace Zuni\View;
 
-use Zuni\InterfaceClass\Load as ILoad;
+use Zuni\Contracts\Load as ILoad;
 use Zuni\Vo\FileVo;
 use Zuni\App;
 use Zuni\Filter\Ds;

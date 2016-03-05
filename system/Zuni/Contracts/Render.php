@@ -9,7 +9,7 @@
 */
 
 
-namespace Zuni\InterfaceClass;
+namespace Zuni\Contracts;
 
 interface Render
 {
