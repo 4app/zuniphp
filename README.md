@@ -1,6 +1,10 @@
 # ZuniPHP
 
-
+### ZuniPHP -> RubricatePHP
+the framework turned into components:  
+https://rubricate.github.io  
+  
+### Clone
 ```
 git clone https://github.com/4app/zuniphp.git myproject
 ```
